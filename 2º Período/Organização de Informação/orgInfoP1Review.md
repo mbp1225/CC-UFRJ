@@ -284,10 +284,10 @@ Evolução da web atual.
 - Formalismos complexos (demanda para boas ferramentas).
 
 ### Web Atual __x__ Web Semântica
-![Web Atual vs. Web Semântica](Imagens/WebAtualWebSemantica.jpg)
+![Web Atual vs. Web Semântica](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/WebAtualWebSemantica.jpg)
 
 ### Camadas W3C
-![Camadas W3C](Imagens/CamadasW3C.jpg)
+![Camadas W3C](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/CamadasW3C.jpg)
 
 <!--
 
