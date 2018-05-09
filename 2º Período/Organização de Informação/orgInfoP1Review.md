@@ -99,14 +99,14 @@ Exemplo: Trâmite do Funcionário.
   - Classificação
   - Ensino
 
-  <!--
+<!--
 
-  =   =
-  =   =
-  =   =
-  =   =
+=   =
+=   =
+=   =
+=   =
 
-  -->
+-->
 ## 2 - Dados Estruturados e BD
 
 ### Dados Não Estruturados
@@ -164,6 +164,64 @@ Um banco de dados é uma coleção *integrada* e *estruturada* de dados operacio
 ## 3 - Modelagem de Dados
 
 ### Modelos de Dados
+É uma coleção de ferramentas conceituais para *descrição* de dados, *relacionamentos*, semântica de dados e restrições de *consistência*.
+
+### Modelo Conceitual de Dados
+Modelos conceituais descrevem que dados devem ser armazenados e como.
+- Que regras definem integridade?
+- Quais são os processos comuns?
+- Que ações devem ser tomadas se a integridade for comprometida?
+- Quem pode acessar qual informação?
+
+### Modelo Físico de Dados
+Descreve como os dados estão armazenados no disco e que métodos de acesso estão disponíveis para ele.
+- Que dados estão associados a cada atributo?
+- Que índices estão disponíveis?
+
+Independência de dados é a separação da implementação física da visão conceitual do banco de dados.
+
+### Entidade
+- É um **conjunto de objetos** do mundo real sobre os quais se deseja manter informações no Banco de Dados.
+- É distinguível de outros objetos.
+- Representada através de um retângulo.
+- Pode representar:
+  - Objetos concretos (uma pessoa);
+  - Objetos abstratos (um departamento).
+
+### Atributo
+É um dado que é associado a cada ocorrência de uma entidade ou relacionamento.
+
+Exemplos:
+
+![Atributos](Imagens/Atributos.jpg)
+
+### Relacionamentos
+É uma associação entre entidades. Representado através de um losango e linhas que ligam as entidades relacionadas.
+
+Exemplos:
+
+![Relacionamento](Imagens/Relacionamento.jpg)
+
+### Relacionamentos com Atributos
+![Relacionamento com Atributos](Imagens/RelacionamentoAtributos.jpg)
+
+### Cardinalidade e Relacionamentos
+Uma propriedade importante dos relacionamentos é a especificação de quantas ocorrências de uma entidade podem estar associadas a uma determinada ocorrência de outra entidade.
+
+Existem duas cardinalidades:
+- Máxima
+- Mínima
+
+  #### Relacionamento Um para Um - 1:1
+  Uma ocorrência de A está associada a no **máximo uma** ocorrência de B, e uma ocorrência em B está associada a no **máximo uma** ocorrência em A.
+
+  ![Um para Um](Imagens/UmParaUm.jpg)
+
+  #### Relacionamento Um para Muitos - 1:N
+
+  #### Relacionamento Muitos para Muitos - N:N ou M:N
+
+### Cardinalidade Mínima e Máxima
 
 
 <!--
