@@ -193,17 +193,17 @@ Independência de dados é a separação da implementação física da visão co
 
 Exemplos:
 
-![Atributos](Imagens/Atributos.jpg)
+![Atributos](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/Atributos.jpg)
 
 ### Relacionamentos
 É uma associação entre entidades. Representado através de um losango e linhas que ligam as entidades relacionadas.
 
 Exemplos:
 
-![Relacionamento](Imagens/Relacionamento.jpg)
+![Relacionamento](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/Relacionamento.jpg)
 
 ### Relacionamentos com Atributos
-![Relacionamento com Atributos](Imagens/RelacionamentoAtributos.jpg)
+![Relacionamento com Atributos](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/RelacionamentoAtributos.jpg)
 
 ### Cardinalidade e Relacionamentos
 Uma propriedade importante dos relacionamentos é a especificação de quantas ocorrências de uma entidade podem estar associadas a uma determinada ocorrência de outra entidade.
@@ -220,12 +220,12 @@ Existem duas cardinalidades:
   #### Relacionamento Um para Muitos - 1:N
   Uma ocorrência de A está associada a **várias ocorrências** de B, porém uma ocorrência de B deve estar associada a **no máximo uma ocorrência** em A.
 
-  ![Um para Muitos](Imagens/UmParaMuitos.jpg)
+  ![Um para Muitos](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/UmParaMuitos.jpg)
 
   #### Relacionamento Muitos para Muitos - N:N ou M:N
   Uma ocorrência de A está **associada a qualquer número de ocorrências** de B, e uma ocorrência em B está **associada a qualquer número de ocorrências** em A.
 
-  ![Muitos para Muitos](Imagens/MuitosParaMuitos.jpg)
+  ![Muitos para Muitos](https://raw.githubusercontent.com/mbp1225/CC-UFRJ/master/2%C2%BA%20Per%C3%ADodo/Organiza%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o/Imagens/MuitosParaMuitos.jpg)
 
 ### Cardinalidade Mínima e Máxima
 O Modero ER permite expressar cardinalidades mínimas e máximas em cada relacionamento.
