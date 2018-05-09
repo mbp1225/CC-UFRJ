@@ -218,10 +218,23 @@ Existem duas cardinalidades:
   ![Um para Um](Imagens/UmParaUm.jpg)
 
   #### Relacionamento Um para Muitos - 1:N
+  Uma ocorrência de A está associada a **várias ocorrências** de B, porém uma ocorrência de B deve estar associada a **no máximo uma ocorrência** em A.
+
+  ![Um para Muitos](Imagens/UmParaMuitos.jpg)
 
   #### Relacionamento Muitos para Muitos - N:N ou M:N
+  Uma ocorrência de A está **associada a qualquer número de ocorrências** de B, e uma ocorrência em B está **associada a qualquer número de ocorrências** em A.
+
+  ![Muitos para Muitos](Imagens/MuitosParaMuitos.jpg)
 
 ### Cardinalidade Mínima e Máxima
+O Modero ER permite expressar cardinalidades mínimas e máximas em cada relacionamento.
+- Cardinalidade Mínima> Número mínimo de uma entidade A com relação a uma outra entidade B.
+  - Representação:
+    - (Cardinalidade Mínima, Cardinalidade Máxima)
+    - Cardinalidades Possíveis: (1,1);(1,N);(0,1);(0,N).
+    - Se Cardinalidade Mínima = 1, relacionamento **obrigatório**.
+    - Se Cardinalidade Mínima = 0, relacionamento **opcional**.
 
 
 <!--
